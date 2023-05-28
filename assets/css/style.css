@@ -1,0 +1,73 @@
+/* Font Playfair */
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@0,500;0,600;0,700;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    line-height: 1.8;
+    background-image: url(../img/table.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    font-family: "Playfair", serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 768px) {
+        display: inherit;
+    }
+}
+
+h1 {
+    color: #DAA520;
+}
+
+.message-el {
+    font-style: italic;
+}
+
+.start-game,
+.new-card {
+    color: #016f32;
+    background: #DAA520;
+    width: 11.25rem;
+    box-shadow: 0 4px 9px -4px #CA991E;
+    border-radius: 1.25rem;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: .4375rem;
+    transition: .3s ease;
+    font-size: 1.3rem;
+    font-family: "Playfair", serif;
+    display: block;
+    margin: auto;
+    margin-top: .4375rem;
+
+    @media (min-width: 768px) {
+        display: inline;
+        margin-left: .5rem;
+    }
+}
+
+button:hover {
+    transform: scale(.98);
+}
+
+.player-el {
+    margin-top: .3125rem;
+}
+
+
+
+
